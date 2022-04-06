@@ -1,13 +1,13 @@
-
-# 
+# Premier programme
 your_Name = ""
-age_Str = ""
-age_Num = 0
 
 while your_Name == "":
     your_Name = input ("Quel est votre nom ? ")
     if your_Name =="":
         print ("Erreur Votre nom ne peut être vide")
+
+age_Str = ""
+age_Num = 0
 
 while age_Num <= 0:
     age_Str  = (input ("Quel age avez vous ? "))
