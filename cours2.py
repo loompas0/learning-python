@@ -47,6 +47,6 @@ def manipulation_Pers(pers_Num):
 num_Pers = int (input("How many people , you want to enter ? "))
 for i in range(num_Pers):
     manipulation_Pers(i+1)
-# 
+# fin cours 2
 # 
 #
