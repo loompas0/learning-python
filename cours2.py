@@ -10,26 +10,26 @@ def input_Info(personne):
 #    else:
 #        age_Pers = int(age_Str)
     try:
-        age_Pers = int(age_Str)
+        age_Pers1 = int(age_Str)
     except:
-        age_Pers = 0
+        age_Pers1 = 0
     else:
-        age_Pers =int(age_Str)    
-    return (name_Pers,age_Pers)
+        age_Pers1 =int(age_Str)    
+    return (name_Pers,age_Pers1)
 
 def est_Majeur(age_Personne):
     if age_Personne >= 18:
         return (True)
     return (False)
 
-def print_Info (personne, name_Pers, adult_Pers , age_Pers = 0 ):
+def print_Info (personne, name_Pers, adult_Pers , age_Pers1 = 0 ):
     if name_Pers == "":
-        print (f"Vous n'avez pas donné de nom pour {personne}, vous avez {age_Pers} ans ")
+        print (f"Vous n'avez pas donné de nom pour {personne}, vous avez {age_Pers1} ans ")
         return
-    if age_Pers == 0:
+    if age_Pers1 == 0:
         print (f"Votre nom de {personne} est {name_Pers} et votre age n'est pas connu.")
     else:
-        print (f"Votre nom de {personne} est {name_Pers} et vous avez {age_Pers} ans.")
+        print (f"Votre nom de {personne} est {name_Pers} et vous avez {age_Pers1} ans.")
     print (f"Le nom : '{name_Pers}' comporte {len(name_Pers)} caractères")
     if adult_Pers:
         print (f"{name_Pers} est majeur")
